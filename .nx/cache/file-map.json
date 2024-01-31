@@ -1,0 +1,285 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@angular/animations": "^17.0.0",
+    "@angular/cdk": "^17.1.0",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/material": "^17.1.0",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2",
+    "@angular-devkit/build-angular": "^17.0.9",
+    "@angular-eslint/builder": "17.2.1",
+    "@angular-eslint/eslint-plugin": "17.2.1",
+    "@angular-eslint/eslint-plugin-template": "17.2.1",
+    "@angular-eslint/schematics": "17.2.1",
+    "@angular-eslint/template-parser": "17.2.1",
+    "@angular/cli": "^17.0.9",
+    "@angular/compiler-cli": "^17.0.0",
+    "@types/jasmine": "~5.1.0",
+    "@typescript-eslint/eslint-plugin": "6.19.0",
+    "@typescript-eslint/parser": "6.19.0",
+    "eslint": "^8.56.0",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.2.2"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "14645878845883387518"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4689145951703824387"
+      },
+      {
+        "file": ".vs/VSWorkspaceState.json",
+        "hash": "16855089429293798438"
+      },
+      {
+        "file": ".vs/online-shop-angular/v17/.wsuo",
+        "hash": "17838291455435876554"
+      },
+      {
+        "file": ".vs/slnx.sqlite",
+        "hash": "2195463674412072356"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "11934160580685414355"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17406702432687230417"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "10093397977228577162"
+      },
+      {
+        "file": "README.md",
+        "hash": "14968488254553945127"
+      },
+      {
+        "file": "angular.json",
+        "hash": "13759754906863098198"
+      },
+      {
+        "file": "db.json",
+        "hash": "16816103200146217557"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "3786655980437553247"
+      },
+      {
+        "file": "package.json",
+        "hash": "16051757361583574503"
+      },
+      {
+        "file": "src/app/app-routing.module.ts",
+        "hash": "653344368732942191"
+      },
+      {
+        "file": "src/app/app.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "2269002512581304823"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "5880680307120941007"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "17895147873921237495"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "4420554718439115953"
+      },
+      {
+        "file": "src/app/components/UI/footer/footer.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/UI/footer/footer.component.html",
+        "hash": "2227886668846331164"
+      },
+      {
+        "file": "src/app/components/UI/footer/footer.component.spec.ts",
+        "hash": "996260165819687498"
+      },
+      {
+        "file": "src/app/components/UI/footer/footer.component.ts",
+        "hash": "6071703756464325626"
+      },
+      {
+        "file": "src/app/components/UI/header/header.component.css",
+        "hash": "7630050643220111888"
+      },
+      {
+        "file": "src/app/components/UI/header/header.component.html",
+        "hash": "14803022934239253170"
+      },
+      {
+        "file": "src/app/components/UI/header/header.component.spec.ts",
+        "hash": "15073179712567752305"
+      },
+      {
+        "file": "src/app/components/UI/header/header.component.ts",
+        "hash": "2275088456934971378"
+      },
+      {
+        "file": "src/app/components/base/base.component.css",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/app/components/base/base.component.html",
+        "hash": "9284278849506665767"
+      },
+      {
+        "file": "src/app/components/base/base.component.spec.ts",
+        "hash": "3181472478886871728"
+      },
+      {
+        "file": "src/app/components/base/base.component.ts",
+        "hash": "15762568952656173342"
+      },
+      {
+        "file": "src/app/components/basket/basket.component.css",
+        "hash": "10975320170365428579"
+      },
+      {
+        "file": "src/app/components/basket/basket.component.html",
+        "hash": "3007476739461061082"
+      },
+      {
+        "file": "src/app/components/basket/basket.component.spec.ts",
+        "hash": "13166710141892137906"
+      },
+      {
+        "file": "src/app/components/basket/basket.component.ts",
+        "hash": "14040811250345730021"
+      },
+      {
+        "file": "src/app/components/dialog-box/dialog-box.component.css",
+        "hash": "2178986285790182178"
+      },
+      {
+        "file": "src/app/components/dialog-box/dialog-box.component.html",
+        "hash": "9341554988598621149"
+      },
+      {
+        "file": "src/app/components/dialog-box/dialog-box.component.spec.ts",
+        "hash": "14633062863950531343"
+      },
+      {
+        "file": "src/app/components/dialog-box/dialog-box.component.ts",
+        "hash": "10892742555679702414"
+      },
+      {
+        "file": "src/app/components/product-details/product-details.component.css",
+        "hash": "12437257359490689748"
+      },
+      {
+        "file": "src/app/components/product-details/product-details.component.html",
+        "hash": "12310176678760258178"
+      },
+      {
+        "file": "src/app/components/product-details/product-details.component.spec.ts",
+        "hash": "5852945782727323358"
+      },
+      {
+        "file": "src/app/components/product-details/product-details.component.ts",
+        "hash": "14641226635311791134"
+      },
+      {
+        "file": "src/app/components/products/products.component.css",
+        "hash": "10975320170365428579"
+      },
+      {
+        "file": "src/app/components/products/products.component.html",
+        "hash": "13781914605627674312"
+      },
+      {
+        "file": "src/app/components/products/products.component.spec.ts",
+        "hash": "15055054759697765494"
+      },
+      {
+        "file": "src/app/components/products/products.component.ts",
+        "hash": "11115963960855569045"
+      },
+      {
+        "file": "src/app/models/products.ts",
+        "hash": "16599016689292970039"
+      },
+      {
+        "file": "src/app/services/product.resolver.ts",
+        "hash": "9473298413492655736"
+      },
+      {
+        "file": "src/app/services/products.service.ts",
+        "hash": "15286120193409163665"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/images/apple-macbook-pro-13-apple-m2-8c.png",
+        "hash": "7882279195194227307"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "3988961587069885523"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "13622432679528739068"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "9374417435436826166"
+      },
+      {
+        "file": "src/styles.css",
+        "hash": "8064407159895496063"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "13119632651406065538"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "8927315398847759354"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "5122839733245053999"
+      }
+    ]
+  }
+}

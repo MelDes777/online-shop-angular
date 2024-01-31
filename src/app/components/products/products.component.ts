@@ -69,6 +69,7 @@ export class ProductsComponent implements OnInit {
     product.quantity += 1;
     this.ProductsService.updateProductToBasket(product).subscribe((data)=>
     {
+      product = data;
 
     })
   }
@@ -78,7 +79,7 @@ export class ProductsComponent implements OnInit {
     this.ProductsService.deleteProduct(id).subscribe(() =>
       this.products.find((item) => {
         if (id === item.id) {
-          let idx = this.products.findIndex((data) => data.id === id);
+          const idx = this.products.findIndex((data) => data.id === id);
           this.products.splice(idx, 1);
         }
       })
@@ -94,7 +95,7 @@ export class ProductsComponent implements OnInit {
     */
 
     // Это 2-ой способ
-    let dialogConfig = new MatDialogConfig();
+    const dialogConfig = new MatDialogConfig();
     dialogConfig.width = '500px';
     dialogConfig.disableClose = true;
     dialogConfig.data = product;

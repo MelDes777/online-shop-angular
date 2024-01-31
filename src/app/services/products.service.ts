@@ -27,7 +27,7 @@ public postProduct(product: IProducts){
 }
 
 public deleteProduct(id: number){
-  return this.http.delete<any>(`${this.url}/${id}`);
+  return this.http.delete<IProducts>(`${this.url}/${id}`);
 }
 
 public updateProduct(product: IProducts){
@@ -47,6 +47,10 @@ public getProductFromBasket(){
 public updateProductToBasket(product: IProducts){
   return this.http.put<IProducts>(`${this.urlBasket}/${product.id}`, product);
 
+}
+
+public deleteProductFromBasket(id: number){
+  return this.http.delete<IProducts>(`${this.urlBasket}/${id}`);
 }
 
 }

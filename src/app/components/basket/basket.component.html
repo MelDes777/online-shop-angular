@@ -4,7 +4,7 @@
       <mat-card-title>{{item.title}}</mat-card-title>
       <mat-card-subtitle>Dog Breed</mat-card-subtitle>
     </mat-card-header>
-      <img class="image" mat-card-image src="{{item.image}}" />
+      <img class="image" mat-card-image src="{{item.image}}" alt="Изображение"/>
     <mat-card-content>
       <p>Price: {{item.price | currency: "EUR"}}</p>
       <p>Year: {{item.year}}</p>
@@ -14,9 +14,9 @@
       <p>Memory: {{item.configure.memory}}</p>
     </mat-card-content>
     <mat-card-actions>
-      <button class="button" mat-flat-button color="primary">+</button>
-      <p>Количество: 123</p>
-      <button class="button" mat-flat-button color="primary">-</button>
+      <button class="button" mat-flat-button color="primary" (click)="plusItemFromBasket(item)">+</button>
+      <p>Количество: {{item.quantity}}</p>
+      <button class="button" mat-flat-button color="primary" (click)="minusItemFromBasket(item)">-</button>
     </mat-card-actions>
   </mat-card>
 </div>

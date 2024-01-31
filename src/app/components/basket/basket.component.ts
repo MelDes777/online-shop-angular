@@ -24,4 +24,26 @@ export class BasketComponent implements OnInit {
     if(this.basketSubscription) this.basketSubscription.unsubscribe();
   }
 
+  public minusItemFromBasket(item: IProducts){
+
+    if (item.quantity === 1) {
+      this.productService.deleteProductFromBasket(item.id).subscribe(()=>{
+        const idx = this.basket.findIndex((data)=> data.id === item.id);
+        this.basket.splice(idx,1);
+
+      })
+    } else {
+      item.quantity -= 1;
+      this.productService.updateProductToBasket(item).subscribe((data) => {
+        data;
+      });
+    }
+
+  }
+  public plusItemFromBasket(item: IProducts){
+    item.quantity +=1;
+    this.productService.updateProductToBasket(item).subscribe(()=>{
+    })
+  }
+
 }
